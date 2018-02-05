@@ -1,0 +1,13 @@
+sitemap wohnung label="Wohnung"
+{
+    Text label="Außen" icon=garden{
+        Frame{
+                
+            Default item=Sunrise_Time
+            Default item=Sunset_Time
+            Default item=MoonPhase
+            }
+    }    
+        
+    
+}
