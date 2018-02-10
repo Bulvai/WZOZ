@@ -2,12 +2,23 @@ sitemap wohnung label="Wohnung"
 {
     Text label="Außen" icon=garden{
         Frame{
-                
             Default item=Sunrise_Time
             Default item=Sunset_Time
             Default item=MoonPhase
-            }
-    }    
-        
+        }
+
+        Frame{
+            Default item=Temperatur
+            Default item=Luftfeuchte
+
+        }
+    }  
+
+    Text label="Wohnzimmer" icon=livingroom{
+        Frame{
+            Default item=Sunrise_Time      
+        }
+    }
+
     
 }

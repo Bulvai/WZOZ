@@ -1,3 +1,9 @@
+//Astro
 DateTime Sunrise_Time "Sonnenaufgang [%1$tH:%1$tM]" <sunrise> {channel="astro:sun:home:rise#start"}
 DateTime Sunset_Time "Sonnenuntergang [%1$tH:%1$tM]" <sunset> {channel="astro:sun:home:set#start"}
 String MoonPhase "Mondphase [MAP(mond.map):%s]"<moon>{channel="astro:moon:home:phase#name"} 
+
+//Wetter
+Number Temperatur 	"Außentemperatur" <temperature> { channel="yahooweather:weather:greven:temperature" }
+Number Luftfeuchte 	"Luftfeuchtigkeit" <temperature> { channel="yahooweather:weather:greven:humidity" }
+
